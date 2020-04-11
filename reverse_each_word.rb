@@ -4,4 +4,6 @@ def reverse_each_word(sentence)
   string_array = []
   binding.pry
   string_array << sentence.split()
+  binding.pry
+  return string_array
 end
