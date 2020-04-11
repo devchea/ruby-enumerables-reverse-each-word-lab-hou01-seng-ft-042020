@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
   sentence.each do |words|
     new_array << words.reverse
   # binding.pry
-  p string_array
+  p new_array
 end
