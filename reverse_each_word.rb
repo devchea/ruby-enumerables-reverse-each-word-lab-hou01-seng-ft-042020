@@ -4,9 +4,9 @@ def reverse_each_word(sentence)
   new_array = sentence.split(" ")
   reversed_array = []
   new_array.each do |word|
-    word.reverse!
+p    word.reverse!
   end
-  p reversed_array
+p word.reverse!
 # new_array = []
 # new_array = sentence.split
 # p new_array
