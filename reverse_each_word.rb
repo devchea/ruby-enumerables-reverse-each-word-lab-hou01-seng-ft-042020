@@ -6,7 +6,6 @@ def reverse_each_word(sentence)
   new_array.each do |word|
     p word.reverse!
   end
-p word.reverse!
 # new_array = []
 # new_array = sentence.split
 # p new_array
