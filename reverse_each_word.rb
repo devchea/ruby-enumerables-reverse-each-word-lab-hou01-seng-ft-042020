@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
   binding.pry
   string_array << sentence.split().reverse
   binding.pry
-  return string_array
+  p string_array
 end
