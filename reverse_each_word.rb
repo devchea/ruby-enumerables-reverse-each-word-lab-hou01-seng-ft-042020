@@ -3,7 +3,7 @@ require "pry"
 def reverse_each_word(sentence)
   string_array = []
   binding.pry
-  string_array << sentence.split()
+  string_array << sentence.split().reverse
   binding.pry
   return string_array
 end
