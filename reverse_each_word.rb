@@ -3,5 +3,5 @@ require "pry"
 def reverse_each_word(sentence)
   new_array = sentence.split(" ")
   reverse_array = new_array.each { |word| reversed_array << word.reverse!}
-  new_array.join(" ")
+  return reversed_array.join(" ")
 end
